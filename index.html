@@ -82,6 +82,10 @@
     }
     .botao-pdf:hover { background: rgba(110, 168, 255, .12); }
 
+    /* exibição de certificado */
+    .cert { display: flex; align-items: center; gap: 16px; }
+    .cert-img { width: 96px; height: auto; flex-shrink: 0; }
+
     /* ===== CELULAR ===== */
     @media (max-width: 600px) {
       body { padding: 14px; }
@@ -149,9 +153,12 @@
     <section class="card">
       <h2>Certificados e Licenças</h2>
       
-      <div class="item">
-        <strong>AWS Certified Cloud Practitioner
-        <span class="data">Set 2026 – Mai 2029</span>
+      <div class="item cert">
+        <img src="images/AWS_Badge.png" alt="Selo da certificação AWS Certified Cloud Practitioner" class="cert-img">
+        <div>
+          <strong>AWS Certified Cloud Practitioner</strong>
+          <span class="data">Set 2026 – Mai 2029</span>
+        </div>
       </div>
     </section>
 
