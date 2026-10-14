@@ -85,6 +85,7 @@
     /* exibição de certificado */
     .cert { display: flex; align-items: center; gap: 16px; }
     .cert-img { width: 96px; height: auto; flex-shrink: 0; }
+    .cert-img--redondo { border-radius: 50%; }
 
     /* ===== CELULAR ===== */
     @media (max-width: 600px) {
@@ -117,9 +118,9 @@
     <!-- RESUMO -->
     <section class="card">
       <h2>Resumo</h2>
-      <p>🎓 Bacharel em Ciência da Computação pela Faculdade Impacta, com interesse e entusiasmo por tecnologia, Inteligência Artificial e desenvolvimento de soluções computacionais.
-🤖 Entusiasta de Large Language Models (LLMs), Machine Learning e Redes Neurais, buscando constantemente aprofundar conhecimentos e acompanhar a evolução dessas tecnologias.
-💡 Tenho interesse em aplicar conhecimentos de computação e Inteligência Artificial na resolução de problemas reais, explorando novas ferramentas, técnicas e abordagens para desenvolvimento de soluções inovadoras.</p>
+      <p>🎓 Bacharel em Ciências da Computação pela Faculdade Impacta, com interesse e entusiasmo por tecnologia, Inteligência Artificial e desenvolvimento de soluções computacionais.
+      <p>🤖 Entusiasta de Large Language Models (LLMs), Machine Learning e Redes Neurais, buscando constantemente aprofundar conhecimentos e acompanhar a evolução dessas tecnologias.
+      <p>💡 Tenho interesse em aplicar conhecimentos de computação e Inteligência Artificial na resolução de problemas reais, explorando novas ferramentas, técnicas e abordagens para desenvolvimento de soluções inovadoras.</p>
     </section>
 
     <!-- EXPERIÊNCIA: para adicionar outra, copie um bloco <div class="item"> inteiro -->
@@ -128,8 +129,8 @@
 
       <div class="item">
         <strong>Técnico de Operações Sênior</strong> – THS Tecnologia
-        <span class="data">2 de Out 2023 – Atual</span>
-        <p>Atuei como membro de T.I da SSP no Centro Integrado de Comando e Controle, com foco em suporte técnico, manutenção, configuração e operacionalização de sistemas e infraestrutura de T.I.</p>
+        <span class="data">Out 2023 – Atual</span>
+        <p>Atuo como membro de T.I da SSP no Centro Integrado de Comando e Controle, com foco em suporte técnico, manutenção, configuração e operacionalização de sistemas e infraestrutura de T.I.</p>
       </div>
 
       <div class="item">
@@ -150,23 +151,25 @@
     </section>
 
     <!-- Certificados e Licenças -->
-    <section class="card">
-      <h2>Certificados e Licenças</h2>
-      
-      <div class="item cert">
-        <img src="images/AWS_Badge.png" alt="Selo da certificação AWS Certified Cloud Practitioner" class="cert-img">
-        <div>
-          <strong>AWS Certified Cloud Practitioner</strong>
-          <span class="data">Set 2026 – Mai 2029</span>
+<section class="card">
+  <h2>Certificados e Licenças</h2>
 
-          <img src="images/cobit5.png" alt="Selo da certificação COBIT 5" class="cert -img">
-          <div>
-            <strong>COBIT 5 Foundation Certificate - PeopleCert</strong>
-            <span class="data">Ago 2025</span>
-          </div>
-        </div>
-      </div>
-    </section>
+  <div class="item cert">
+    <img src="images/AWS_Badge.png" alt="Selo da certificação AWS Certified Cloud Practitioner" class="cert-img">
+    <div>
+      <strong>AWS Certified Cloud Practitioner</strong>
+      <span class="data">Set 2026 – Mai 2029</span>
+    </div>
+  </div>
+
+  <div class="item cert">
+    <img src="images/cobit5.png" alt="Selo da certificação COBIT 5 Foundation" class="cert-img cert-img--redondo">
+    <div>
+      <strong>COBIT 5 Foundation Certificate - PeopleCert</strong>
+      <span class="data">Ago 2025</span>
+    </div>
+  </div>
+</section>
 
     <!-- HABILIDADES -->
     <section class="card">
